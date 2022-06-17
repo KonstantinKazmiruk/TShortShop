@@ -4,16 +4,31 @@
 <head>
     <meta charset="utf-8" />
     <title>Home Page</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./main.css">
+    
 </head>
 <body>
-    <p>
-        echo "# TShortShop" >> README.md
-        git init
-        git add README.md
-        git commit -m "first commit"
-        git branch -M main
-        git remote add origin git@github.com:KonstantinKazmiruk/TShortShop.git
-        git push -u origin main
-    </p>
+    <section class="hero">
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="./img/content/logos/logo-main.png" alt="T Short shop" />
+            </a>
+            <a href="mailto:TShortShop@gmail.com" class="mail">
+                <div class="mail__title">По всем вопросам пишите на:</div>
+                <div class="mail__content">TShortShop@gmail.com</div>
+            </a>
+        </header>
+        <div class="fade-slider">
+            <div class="fade-slider__item">
+                <h1 class="lined-text">
+                    <div class="lined-text__word">три</div>
+                    <div class="lined-text__word">футболки</div>
+                    <div class="lined-text__word">по цене</div>
+                    <div class="lined-text__word">двух</div>
+                </h1>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
