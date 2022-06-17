@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    
+}
+
+.hero {
+    height: 100vh;
+    min-height: 650px;
+    background: green;
+    background: url("./img/bg/hero.jpg") center center / cover no-repeat;
+    
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
